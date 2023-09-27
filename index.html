@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <h1 style="color: #4884d8;">TODO List</h1>
+
+    <div class="contain">
+      <div>
+        <form id="form">
+          <div class="inputField">
+            <input name="todoText" id="input" />
+            <button type="submit" class="submitBtn">Add</button>
+          </div>
+          <div id="msg"></div>
+        </form>
+      </div>
+      <div id="data">
+        <p>
+          Example  </p>
+          <span class="option">
+            <button class="btn" onclick="handleEdit(this)">Edit</button>
+            <button class="btn" onclick="handleDelete(this)">Delete</button>
+          </span>
+      
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
